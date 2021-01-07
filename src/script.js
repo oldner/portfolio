@@ -25,6 +25,8 @@ export default {
         time: today,
       });
       window.location.href = "#comments";
+      this.name = ''
+      this.content = ''
     },
     removeComment(index) {
       if (!index) {
