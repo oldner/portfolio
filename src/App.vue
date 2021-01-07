@@ -127,7 +127,7 @@
           <input type="text" placeholder="Adınız" v-model="name" />
         </div>
         <div class="mail-input">
-          <input type="text" id="email-input" placeholder="E-mail adresiniz" />
+          <input type="text" id="email-input" v-model="email" placeholder="E-mail adresiniz" />
         </div>
         <div class="comment-input">
           <textarea

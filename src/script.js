@@ -7,6 +7,7 @@ export default {
       sideBar: false,
       name: "",
       content: "",
+      email: '',
       comments: [],
       johnComment: true,
     };
@@ -27,6 +28,7 @@ export default {
       window.location.href = "#comments";
       this.name = ''
       this.content = ''
+      this.email = ''
     },
     removeComment(index) {
       if (index == undefined) {
