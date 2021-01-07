@@ -29,7 +29,7 @@ export default {
       this.content = ''
     },
     removeComment(index) {
-      if (!index) {
+      if (index == undefined) {
         this.johnComment = false;
       }
       this.comments.splice(index, 1);
